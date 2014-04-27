@@ -1,0 +1,62 @@
+-.-
+PixelKernel A
+MetaKernel: CraftBukkit V "1.7.2 R0.3"
+MetaFile created: 'Splateds_Elementals.jar'
+File Type: 'Java JAR File'
+PixelGit Status: 'OK'
+Base gk: 'Minecraft'
+Use lib: 'JATEK'
+File meta: '1.7 plugin library file for BK'
+-.-
+Plugin/CraftBukkit/BasePluginLoader.jar
+ -/plugin/Splateds_Elementals.jar/:
+ 
+name: Splateds_Elementals
+main: info.nothingspecial.Splateds_Elementals.Splateds_Elementals
+version: B.1.2
+authors: [Splated, awesomefacecreeper]
+softdepend: [BarAPI]
+
+commands:
+   live:
+      description: Awakens an Elemental.
+      usage: Unknown Command <command> 
+      permission: Elemental.Live
+      permission-message: You don't have permission
+      
+   cmd:
+      description: Commands an Elemental to do your bidding
+      usage: Unknown Command <command> 
+      permission: Elemental.cmd
+      permission-message: You don't have permission
+
+permissions:
+    Elemental.Live:
+        description: Awakens an Elemental
+        default: op
+       
+#**Elementals  B.1.2**
+#----
+# Clean up of /live and /cmd more user friendly
+# redo of shape code
+# redo of vector code
+# Tempory removal of all types but dirt (prep for anmation)
+# overhaul of elemental constructor
+# added barAPI
+# removed anmations now part of the elemental.yml ( under construction)
+# added settings to config.yml 
+# added new shapes dot/ball/line 
+# added special ability flying
+
+
+       
+#**Elementals  B.1.1**
+#----
+# added /cmd <grow,die,slam,pound,sweep>
+# if shot with an arrow it will turn to shooter and move to them
+# types /live < Dirt,Stone,Fire,Water,Air,Tree>
+
+
+# ** Elementals VB.1 **
+# ----
+# first version 
