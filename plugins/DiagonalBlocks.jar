@@ -1,0 +1,24 @@
+-.-
+PixelKernel A
+MetaKernel: CraftBukkit V "1.7.2 R0.3"
+MetaFile created: 'DiagonalBlocks.jar'
+File Type: 'Java JAR File'
+PixelGit Status: 'OK'
+Base gk: 'Minecraft'
+Use lib: 'JATEK'
+File meta: '1.7 plugin library file for BK'
+-.-
+Plugin/CraftBukkit/BasePluginLoader.jar
+ -/plugin/DiagonalBlocks.jar/:
+ 
+name: DiagonalBlocks
+main: com.gmail.filoghost.diagonalblocks.DiagonalBlocks
+version: 1.3.3
+
+commands:
+   diagonalblocks:
+      description: Main command for DiagonalBlocks.
+      usage: /<command>
+      aliases: [diagonal,diagonalblock,db]
+      permission: diagonalblocks.admin
+      permission-message: You don't have permission.
