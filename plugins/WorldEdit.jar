@@ -1,0 +1,20 @@
+-.-
+PixelKernel A
+MetaKernel: CraftBukkit V "1.7.2 R0.3"
+MetaFile created: 'WorldEdit.jar'
+File Type: 'Java JAR File'
+PixelGit Status: 'OK'
+Base gk: 'Minecraft'
+Use lib: 'JATEK'
+File meta: '1.7 plugin library file for BK'
+-.-
+Plugin/CraftBukkit/BasePluginLoader.jar
+ -/plugin/WorldEdit.jar/:
+ 
+name: WorldEdit
+main: com.sk89q.worldedit.bukkit.WorldEditPlugin
+version: 5.6.2
+softdepend: [Spout] #hack to fix trove errors
+
+# Permissions aren't here. Read http://wiki.sk89q.com/wiki/WEPIF/DinnerPerms
+# for how WorldEdit permissions actually work.
