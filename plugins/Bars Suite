@@ -1,0 +1,51 @@
+-.-
+PixelKernel A
+MetaKernel: CraftBukkit V "1.7.2 R0.3"
+MetaFile created: 'BarAPI.jar'
+MetaFile created: 'BossBar.jar'
+File Type: 'Java JAR File'
+PixelGit Status: 'OK'
+Base gk: 'Minecraft'
+Use lib: 'JATEK'
+File meta: '1.7 plugin library file for BK'
+-.-
+Plugin/CraftBukkit/BasePluginLoader.jar
+ -/plugin/BarAPI.jar/:
+ 
+main: me.confuser.barapi.BarAPI
+name: BarAPI
+version: 3.1
+description: Allows plugins to control the boss health bar message
+
+Plugin/CraftBukkit/BasePluginLoader.jar
+ -/plugin/BarAPI.jar/:
+ 
+## BossBar Configuration ##
+
+# Colors:
+#    &0 - Black
+#    &1 - Dark Blue
+#    &2 - Dark Green
+#    &3 - Dark Aqua
+#    &4 - Dark Red
+#    &5 - Purple
+#    &6 - Gold
+#    &7 - Light Gray
+#    &8 - Dark Gray
+#    &9 - Blue
+#    &a - Green
+#    &b - Aqua
+#    &c - Red
+#    &d - Pink
+#    &e - Yellow
+#    &f - White
+#    &k - Magic
+#    &l - Bold
+#    &m - Strikethrough
+#    &n - Underline
+#    &o - Italic
+#    &r - Reset formats and colors
+# Use '%player%' to specify the player's name.
+# Set to 'none' to disable
+
+broadcast: '&fWelcome to the server, &a%player%&f!'
