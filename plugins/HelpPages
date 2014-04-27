@@ -1,0 +1,26 @@
+-.-
+PixelKernel A
+MetaKernel: CraftBukkit V "1.7.2 R0.3"
+MetaFile created: 'HelpPages.jar'
+File Type: 'Java JAR File'
+PixelGit Status: 'OK'
+Base gk: 'Minecraft'
+Use lib: 'JATEK'
+File meta: '1.7 plugin library file for BK'
+-.-
+Plugin/CraftBukkit/BasePluginLoader.jar
+ -/plugin/HelpPages.jar/:
+ 
+name: Help Pages
+version: 2.0.1
+description: Make your own Help Pages!
+author: PaulBGD
+main: me.paulbgd.bukkit.hp.HelpPages
+
+commands:
+  help:
+    description: View the help menu!
+    usage: /help <page>
+  helpreload:
+    description: Reload the pages
+    usage: /helpreload
