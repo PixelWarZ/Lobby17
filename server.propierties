@@ -1,0 +1,46 @@
+-.-
+PixelKernel A
+MetaKernel: CraftBukkit V "1.7.2 R0.3"
+MetaFile created: 'server.propierties'
+File Type: 'Propierties Attrib File'
+PixelGit Status: 'OK'
+Base gk: 'DOS,UNIX'
+Use lib: 'TXTNOTEPAD'
+File meta: 'Propierties File'
+
+SourceCode:
+#Minecraft server properties
+#Sun Apr 27 15:25:17 COT 2014
+generator-settings=
+op-permission-level=3
+allow-nether=true
+level-name=Pixel
+enable-query=false
+allow-flight=false
+announce-player-achievements=false
+server-port=25565
+level-type=DEFAULT
+enable-rcon=false
+force-gamemode=false
+level-seed=
+server-ip=25.14.145.8
+max-build-height=256
+spawn-npcs=true
+white-list=false
+spawn-animals=true
+snooper-enabled=true
+hardcore=false
+online-mode=true
+resource-pack=
+pvp=true
+difficulty=1
+enable-command-block=true
+server-name=Unknown Server
+player-idle-timeout=0
+gamemode=0
+max-players=5
+spawn-monsters=true
+view-distance=10
+generate-structures=true
+spawn-protection=16
+motd=A Minecraft Server
