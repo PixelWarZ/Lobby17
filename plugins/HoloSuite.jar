@@ -1,0 +1,118 @@
+-.-
+PixelKernel A
+MetaKernel: CraftBukkit V "1.7.2 R0.3"
+MetaFile created: 'HoloAPI.jar'
+MetaFile created: 'HolographicDisplays.jar'
+MetaFile created: 'TouchscreenHolograms.jar'
+File Type: 'Java JAR File'
+PixelGit Status: 'OK'
+Base gk: 'Minecraft'
+Use lib: 'JATEK'
+File meta: '1.7 plugin library file for BK'
+-.-
+Plugin/CraftBukkit/BasePluginLoader.jar
+ -/plugin/HoloAPI.jar/:
+ 
+name: HoloAPI
+version: 1.2.0
+author: [DSH105, CaptainBern]
+description: Advanced Hologram management
+softdepend: [Vault, VanishNoPacket]
+website: ${project.url}
+main: com.dsh105.holoapi.HoloAPI
+version: 1.2.0
+commands:
+    holoupdate:
+        description: Update the HoloAPI plugin
+        permission: holoapi.update
+permissions:
+    holoapi.holo:
+        default: op
+    holoapi.holo.create:
+        default: op
+    holoapi.holo.remove:
+        default: op
+    holoapi.holo.info:
+        default: op
+    holoapi.holo.move:
+        default: op
+    holoapi.holo.teleport:
+        default: op
+    holoapi.holo.build:
+        default: op
+    holoapi.holo.reload:
+        default: op
+    holoapi.holo.edit:
+        default: op
+    holoapi.holo.refresh:
+        default: op
+    holoapi.holo.copy:
+        default: op
+    holoapi.holo.nearby:
+        default: op
+    holoapi.holo.touch.add:
+        default: op
+    holoapi.holo.touch.remove:
+        default: op
+    holoapi.holo.touch.clear:
+        default: op
+    holoapi.holo.touch.info:
+        default: op
+    holoapi.update:
+        default: op
+    holoapi.*:
+        default: op
+        description: All HoloAPI commands
+        children:
+            holoapi.holo.touch.*: true
+            holoapi.holo: true
+            holoapi.holo.create: true
+            holoapi.holo.remove: true
+            holoapi.holo.info: true
+            holoapi.holo.reload: true
+            holoapi.holo.move: true
+            holoapi.holo.teleport: true
+            holoapi.holo.build: true
+            holoapi.holo.edit: true
+            holoapi.holo.refresh: true
+            holoapi.holo.copy: true
+            holoapi.holo.nearby: true
+            holoapi.update: true
+    holoapi.touch.*:
+        default: op
+        description: All HoloAPI commands under /holo touch
+        children:
+            holoapi.holo.touch.add: true
+            holoapi.holo.touch.remove: true
+            holoapi.holo.touch.clear: true
+            holoapi.holo.touch.info: true
+
+Plugin/CraftBukkit/BasePluginLoader.jar
+ -/plugin/HolographicDisplays.jar/:
+ 
+name: HolographicDisplays
+main: com.gmail.filoghost.holograms.HolographicDisplays
+version: 1.7
+
+softdepend: [Multiverse-Core, MultiWorld, My Worlds, My_Worlds, ProtocolLib]
+
+commands:
+   holograms:
+      description: Main command for HolographicDisplays.
+      usage: /<command> (Startup error)
+      aliases: [hd, holo, hologram]
+ 
+Plugin/CraftBukkit/BasePluginLoader.jar
+ -/plugin/TouchscreenHolograms.jar/:
+
+name: TouchscreenHolograms
+main: com.gmail.filoghost.touchscreenholograms.TouchscreenHolograms
+version: 1.1.1
+
+softdepend: [HolographicDisplays]
+
+commands:
+  touchscreenholograms:
+    description: TouchscreenHolograms main command.
+    usage: /<command> (Startup error)
+    aliases: [touchholograms, th]
